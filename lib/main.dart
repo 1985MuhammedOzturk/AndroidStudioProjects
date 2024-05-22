@@ -21,7 +21,7 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   final TextEditingController _loginController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  String _imageSource = 'assets/images/question-mark.png';
+  String _imageSource = 'assets/images/questionmark.png';
 
   void _checkLogin() {
     setState(() {
