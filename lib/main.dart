@@ -21,14 +21,14 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   final TextEditingController _loginController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  String _imageSource = 'assets/images/question-mark.png';
+  String _imageSource = 'images/idea.png';
 
   void _checkLogin() {
     setState(() {
       if (_passwordController.text == 'QWERTY123') {
-        _imageSource = 'assets/images/idea.png';
+        _imageSource = 'images/idea.png';
       } else {
-        _imageSource = 'assets/images/stop.png';
+        _imageSource = 'images/stop.png';
       }
     });
   }
